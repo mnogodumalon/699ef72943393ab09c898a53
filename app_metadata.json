@@ -1,0 +1,47 @@
+{
+  "appgroup_id": "699ef72943393ab09c898a53",
+  "appgroup_name": "Link-Extraktor",
+  "apps": {
+    "url_analyse": {
+      "app_id": "699ef71749797b3e287a6ed8",
+      "name": "URL-Analyse",
+      "controls": {
+        "eingabe_url": {
+          "identifier": "eingabe_url",
+          "label": "URL eingeben",
+          "type": "string",
+          "subtype": "textarea",
+          "fulltype": "string/textarea",
+          "description": "A string value that can contain multiple lines of text (or `null`/`None`).",
+          "required": null,
+          "in_list": true,
+          "in_mobile_list": true,
+          "in_text": true,
+          "in_structured_search": false,
+          "in_fulltext_search": false,
+          "in_expert_search": true
+        },
+        "original_link": {
+          "identifier": "original_link",
+          "label": "Extrahierter Originallink",
+          "type": "string",
+          "subtype": "textarea",
+          "fulltype": "string/textarea",
+          "description": "A string value that can contain multiple lines of text (or `null`/`None`).",
+          "required": null,
+          "in_list": true,
+          "in_mobile_list": true,
+          "in_text": true,
+          "in_structured_search": false,
+          "in_fulltext_search": false,
+          "in_expert_search": true
+        }
+      }
+    }
+  },
+  "metadata": {
+    "apps_list": [
+      "URL-Analyse"
+    ]
+  }
+}
